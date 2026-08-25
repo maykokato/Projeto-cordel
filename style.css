@@ -51,7 +51,6 @@ body{
 
 .trans{
     background-image: url(imagens/background001.jpg);
-    background-attachment: fixed;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -60,11 +59,22 @@ body{
 
 .trans2{
     background-image: url(imagens/background002.jpg);
-    background-attachment: fixed;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     color: white;
+}
+
+.trans,
+.trans2 {
+    background-attachment: fixed;
+}
+
+@media (max-width: 768px) {
+    .trans,
+    .trans2 {
+        background-attachment: scroll;
+    }
 }
 
 .artrans{
