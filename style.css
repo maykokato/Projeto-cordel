@@ -41,13 +41,12 @@ a:hover{
 }
 
 section{
-    padding-top: 10vh;
-    padding-bottom: 10vh;
-    padding-left: 30px;
-    line-height: 3em;
-    margin-left: 5%;
-    margin-right: 5%;
-    border-radius: 30px;
+    padding-top: 7vh;
+    padding-bottom: 7vh;
+    padding-left: 2vh;
+    margin-left: 5vh;
+    margin-right: 5vh;
+    border-radius: 2vh;
 }
 
 section.normal{
@@ -79,8 +78,9 @@ section.imagem2{
 
 article{
     font-size: clamp(10px, 3vw, 40px);
-    width: 600px;
     padding: 5px;
+    width: 70%;
+    max-width: 500px;
 }
 
 /* Rodapé */
