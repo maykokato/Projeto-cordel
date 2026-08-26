@@ -1,55 +1,60 @@
 @charset "UTF-8";
 
-header{
-    height: 15vw;
-    max-height: 200px;
-    min-height: 100px;
-
-    background-color: black;
-    position: relative;
+*{
+    margin: 0px;
+    padding: 0px;
 }
 
-.titulo{
-    position: absolute;
+html, body{
+    min-height: 100vh;
+}
+
+header{
+    background-color: #042D01;
+}
+
+h1{
     color: white;
     font-size: clamp(25px, 5vw, 50px);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 50px;
     text-align: center;
-
-    left: 50%;
-    top: 20%;
-    
-    transform: translate(-50%, -50%);
 }
 
-.sub{
-    position: absolute;
+h2{
     color: white;
-    font-size: clamp(5px, 5vw, 15px);
+    font-size: clamp(10px, 2vw, 25px);
     font-weight: normal;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
-    left: 50%;
-    top: 55%;
-    
-    transform: translate(-50%, -50%);
+    padding-bottom: 50px;
+    text-align: center;
 }
 
-body{
-    margin: 0px;
-}
-
-.sub>a{
+h2>a{
     color: rgb(246, 243, 250);
     text-decoration: none;
     font-weight: bold;
 }
 
-.branco{
+a:hover{
+    color: rgba(246, 243, 250, 0.733);
+}
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+    line-height: 3em;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 30px;
+}
+
+section.normal{
     background-color: white;
 }
 
-.trans{
+section.imagem{
     background-image: url(imagens/background001.jpg);
     background-attachment: fixed;
     background-size: cover;
@@ -58,7 +63,7 @@ body{
     color: white;
 }
 
-.trans2{
+section.imagem2{
     background-image: url(imagens/background002.jpg);
     background-attachment: fixed;
     background-size: cover;
@@ -67,30 +72,24 @@ body{
     color: white;
 }
 
-.artrans{
+.quadro{
     background-color: rgba(51, 5, 5, 0.459);
     border-radius: 5px;
 }
 
-section{
-max-height: 500px;
-padding: 3%;
-}
-
 article{
     font-size: clamp(10px, 3vw, 40px);
-    width: 40%;
+    width: 600px;
     padding: 5px;
 }
 
+/* Rodapé */
 footer{
-    height: 20px;
-    background-color: black;
+    background-color: #042D01;
     color: white;
     text-align: center;
     padding: 20px;
     font-size: clamp(10px, 3vw, 20px);
-
 }
 
 footer>a{
