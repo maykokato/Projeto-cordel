@@ -54,7 +54,7 @@ section.normal{
 }
 
 section.imagem{
-    background-image: url(imagens/background001.jpg);
+    background-image: url(imagens/background001.gif);
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
@@ -63,7 +63,7 @@ section.imagem{
 }
 
 section.imagem2{
-    background-image: url(imagens/background002.jpg);
+    background-image: url(imagens/background002.gif);
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
