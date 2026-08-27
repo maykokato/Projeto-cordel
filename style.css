@@ -10,7 +10,10 @@ html, body{
 }
 
 header{
-    background-color: #042D01;
+    background-image: url(imagens/guia.jpg);
+    background-size: cover;
+    box-shadow: 0px 7px 10px gray;
+    margin-bottom: 20px;    
 }
 
 h1{
@@ -19,6 +22,7 @@ h1{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding-top: 50px;
     text-align: center;
+    text-shadow: 0px 0px 10px black;
 }
 
 h2{
@@ -28,6 +32,7 @@ h2{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding-bottom: 50px;
     text-align: center;
+    text-shadow: 0px 0px 10px black;
 }
 
 h2>a{
@@ -59,6 +64,7 @@ section.imagem{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    box-shadow: -5px -4px 10px gray;
     color: white;
 }
 
@@ -68,17 +74,11 @@ section.imagem2{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    box-shadow: -5px -4px 10px gray;
     color: white;
 }
 
-/* CELULAR */
-@media (max-width: 768px) {
-    section.imagem,
-    section.imagem2 {
-        background-attachment: scroll;
-        background-size: 100% 100%;
-    }
-}
+
 
 .quadro{
     background-color: rgba(51, 5, 5, 0.459);
