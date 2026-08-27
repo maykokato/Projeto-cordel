@@ -71,6 +71,15 @@ section.imagem2{
     color: white;
 }
 
+/* CELULAR */
+@media (max-width: 768px) {
+    section.imagem,
+    section.imagem2 {
+        background-attachment: scroll;
+        background-size: 100% 100%;
+    }
+}
+
 .quadro{
     background-color: rgba(51, 5, 5, 0.459);
     border-radius: 5px;
