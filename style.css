@@ -94,7 +94,10 @@ article{
 
 /* Rodapé */
 footer{
+    background-image: url(imagens/guia.jpg);
+    background-size: cover;
     background-color: #042D01;
+    text-shadow: 0px 0px 10px black;
     color: white;
     text-align: center;
     padding: 20px;
